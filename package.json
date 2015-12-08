@@ -1,0 +1,11 @@
+{
+  "name": "singlepagedemo",
+  "version": "1.0.0",
+  "description": "basic single page layout to demonstrate my understanding of html, css and javascript/jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
