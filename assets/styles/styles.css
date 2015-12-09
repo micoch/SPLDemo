@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Sonsie+One);
+
+body {
+  height: 2500px;
+  padding-top: 325px;
+  transition: all 0.5s ease;
+}
+
+body.body-move {
+  padding-top: 150px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+nav {
+  margin-bottom: 25px;
+}
+
+#header {
+  height: 250px !important;
+  background: linear-gradient(to right,#4c4c33, #b8b894) !important;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+#header.navbar-header.shrink {
+  height: 75px !important;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 10px;
+}
+
+#header-text {
+  font-family: 'Sonsie One';
+  margin: none;
+  text-align: center;
+  color: rgba(255,255,255, 0.65);
+  position: absolute;
+  width: 70%;
+  top: 120px;
+  left: 15%;
+  transition: all 0.5s ease;
+}
+
+#header-text > small {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+#header-text.navbar-text.move {
+  top:5px !important;
+}
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+
+/* #feature-img */
+
+
+#feature-img {
+  text-align: center;
+}
