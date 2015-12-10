@@ -1,17 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Sonsie+One);
 
-body {
-  height: 2500px;
-  padding-top: 325px;
-  transition: all 0.5s ease;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Sonsie One";
 }
 
-body.body-move {
-  padding-top: 175px;
+body {
+  height: auto !important;
 }
 
 section {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 nav {
@@ -22,11 +20,12 @@ nav {
   height: 250px !important;
   background: linear-gradient(to right,#4c4c33, #b8b894) !important;
   width: 100%;
-  transition: all 0.5s ease;
+  transition: 0.5s all ease;
 }
 
-#header.navbar-header.shrink {
+#header.shrink {
   height: 75px !important;
+  transition: 0.5s all ease;
 }
 
 .navbar-brand {
@@ -43,15 +42,16 @@ nav {
   width: 70%;
   top: 120px;
   left: 15%;
-  transition: all 0.5s ease;
+  transition: 0.5s all ease;
 }
 
 #header-text > small {
   color: rgba(255, 255, 255, 0.65);
 }
 
-#header-text.navbar-text.move {
+.move {
   top:5px !important;
+  transition: 0.5s all ease;
 }
 
 .navbar-nav {
@@ -66,7 +66,39 @@ nav {
 
 /* #feature-img */
 
+#body-content {
+  padding-top: 325px;
+  transition: 0.2s all ease;
+}
+
+#body-content.body-move {
+  padding-top: 175px;
+  transition: .5s all ease;
+}
 
 #feature-img {
   text-align: center;
+}
+
+/* artist-info */
+
+#artist-info {
+  min-height: 500px;
+}
+
+section > h2:after {
+  content: "";
+  height: 1px;
+  width: 40%;
+  background-color: #b8b894;
+  display: block;
+  margin: 10px auto 0 auto;
+}
+
+#event-info {
+  height: 500px;
+}
+
+#contact {
+  height: 500px
 }
